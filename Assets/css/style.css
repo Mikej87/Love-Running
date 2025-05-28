@@ -20,6 +20,10 @@ body {
 header {
     background-color: rgb(206, 119, 7);
 }
+
+h1 {
+    font-family: 'oswald', sans-serif;
+}
 /* Main content */
 main {
     background-color: aqua;
