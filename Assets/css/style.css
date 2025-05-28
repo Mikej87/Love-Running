@@ -3,13 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* Headrer */
+/* General styles*/
+body { 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* General project styles*/
+    color: #3a3a3a;
+}
+
+
+/* Header */
 header {
     background-color: rgb(206, 119, 7);
 }
 /* Main content */
 main {
     background-color: aqua;
+    flex: 1 0 auto;
 }
 /* Footer */
 footer {
