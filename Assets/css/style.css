@@ -24,7 +24,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -62,11 +64,25 @@ nav {
     padding: 2px;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle-label {
+    font-size: 2rem;
 }
 /* Main content */
 main {
     background-color: aqua;
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 /* Footer */
 footer {
