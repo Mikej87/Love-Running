@@ -80,11 +80,34 @@ nav {
 }
 /* Main content */
 main {
-    background-color: aqua;
+    background-color: rgb(70, 174, 174);
     flex: 1 0 auto;
     margin-top: 47px;
 }
 /* Footer */
 footer {
-    background-color: blue;
+    background-color: rgb(32, 32, 171);
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
